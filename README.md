@@ -1,28 +1,16 @@
-# Parcel Delivery Service Routing System
+# Parcel Delivery Routing System
 
-## Description
-The Parcel Delivery Service is a robust and dynamic package delivery system designed to optimize daily local deliveries (DLD) in metropolitan areas, starting with Salt Lake City. Leveraging advanced algorithms and efficient data handling, the system ensures all packages are delivered on time, fulfilling the promise of reliability and speed.
+## Overview
+University coursework project for a data structures and algorithms course, focused on routing optimization and custom data structure implementation.
+
+The project simulates a local parcel delivery system using a nearest-neighbor routing heuristic and a custom-built hash map for package storage and lookup. It emphasizes algorithmic reasoning, data parsing, and object-oriented design rather than real-world logistics or production deployment.
 
 ## Features
-- **Dynamic Routing Algorithm**: Implements the Nearest Neighbor algorithm to calculate efficient delivery routes.
-- **Real-Time Tracking**: Monitors the progress of each delivery truck and package, providing updates on delivery status and time.
-- **Adaptable Delivery Scheduling**: Accommodates on-the-fly changes in package delivery requirements and deadlines.
-- **Optimized for Scale**: Designed to be replicated across multiple cities and states, ensuring a broad operational presence is supported.
-- **Comprehensive Data Parsing**: Reads and processes data from CSV files containing location coordinates and distances, fully automated to reduce human error.
-- **Object-Oriented Design**: Written in Python, the system follows OOP principles for modular, maintainable, and scalable code.
-
-## Installation and Setup
-1. **Download or clone the repository**: Clone or download this repository to your local machine to get started.
-   ```bash
-    git clone https://github.com/AndyAnderson8/Parcel-Delivery-Service.git
-    cd Parcel-Delivery-Service
-    ```
-
-2. **Running the application**: Simply launch the `main.py` file.
-   
-    ```bash
-    python main.py
-    ```
+- Nearest-neighbor routing algorithm for delivery sequencing
+- Custom hash map implementation for package data storage
+- CSV-based data parsing for locations, distances, and package metadata
+- Simulation of delivery timing and package status updates
+- Object-oriented Python design
 
 ## License
-[MIT](https://github.com/AndyAnderson8/Parcel-Delivery-Service/blob/main/LICENSE.txt)
+[MIT](LICENSE.txt)
